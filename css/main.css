@@ -1,0 +1,109 @@
+/*
+ * Estilos de tu proyecto
+ FUENTES:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+
+COLORES:
+La paleta de colores puedes obtenerla inspeccionado el sitio original, 
+pero para ganar tiempo, puedes usar los siguientes: 
+#2c3e50, #18bc9c, #212529.
+
+REVISAR ETIQUETAS: form, input, button.
+
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.71429;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.container {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+.container:before, .container:after {
+	content: " ";
+	display: table;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container:after {
+	clear: both;/*both: Es un keyword que indica que el elemento es movido hacia abajo para limpiar tanto elementos flotantes de la izquierda como de la derecha.*/
+}
+
+.mb-0 {
+	margin-bottom: 0px;
+}
+
+.mt-0 {
+	margin-top: 0px;
+}
+
+.m-0 {
+	margin: 0px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #18bc9c;
+}
+
+.text-uppercase { /*pasa el texto a mayusculas*/
+	text-transform: uppercase;
+}
+
+.float-r{
+	float: right;
+}
+
+/*--------------------------------------------------------------------------*/
+header{
+	background: #2c3e50;
+	width: 100%;
+	top: 0;
+
+	position: fixed;
+}
+
+.link{
+	font-weight: 700;
+	padding: 20px;
+
+	display: inline-block;
+}
+
+.start{
+	font-size: 32px;
+}
