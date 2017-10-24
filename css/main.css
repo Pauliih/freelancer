@@ -40,8 +40,8 @@ img {
 	width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 14px;
-	padding-right: 14px;
+	padding:0 14px;
+	
 }
 
 .container:before, .container:after {
@@ -76,7 +76,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+.float-r:hover {
 	color: #18bc9c;
 }
 
@@ -84,8 +84,51 @@ a:hover {
 	text-transform: uppercase;
 }
 
-.float-r{
-	float: right;
+.separador_white i .fa-star{
+	color: white;
+}
+.fa-star{
+	font-size: 35px;
+}
+
+
+.separador_white:after {
+    display: inline-block;
+    margin: 0 0 9px 10px;
+    height: 5px;
+    content: " ";
+    text-shadow: none;
+    background-color: white;
+    width: 100px;
+}
+.separador_white:before {
+    display: inline-block;
+    margin: 0 10px 9px 0;
+    height: 5px;
+    content: " ";
+    text-shadow: none;
+    background-color: white;
+    width: 100px;
+}
+
+.separador_black:after {
+    display: inline-block;
+    margin: 0 0 9px 10px;
+    height: 5px;
+    content: " ";
+    text-shadow: none;
+    background-color: #2c3e50;
+    width: 100px;
+}
+
+.separador_black:before {
+    display: inline-block;
+    margin: 0 10px 9px 0;
+    height: 5px;
+    content: " ";
+    text-shadow: none;
+    background-color: #2c3e50;
+    width: 100px;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -107,22 +150,164 @@ header{
 .start{
 	font-size: 32px;
 	font-weight: 700;
-	padding: 20px;
+	padding: 31px 0;
+
 	display: inline-block;
+}
+div{
+	display: block;
+}
+.float-r{
+	float: right;
+	padding-top: 50px;
+}
+
+.txt-title{
+	font-size: 45px;
+	font-weight: 700;
+	padding: 20px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+/*________________________________________________________________________*/
+#home{
+	background-color: #18bc9c;
+	text-align: center;
+	color: white;
+	padding: 70px 7px;
+}
+
+.txt-home{
+	font-size: 80px;
+	font-weight: 700;
+	padding-top:20px;
+	margin-bottom: 0;
+}
+
+#home img{
+	padding-top:120px; 
+}
+
+.home h4{
+	font-size: 25px;
+}
+/*_______________________________________________________________________*/
+#portfolio{
+	background-color: white;
+	text-align: center;
+	color: #212529;
+	padding: 70px 7px;
+}
+
+.img_row img{
+	width: 100%;
+	overflow: hidden;
+}
+.row{
+	padding: 15px;
+	width: 30%;
+	float: left;
+}
+/*_______________________________________________________________________*/
+
+#about{
+	background-color: #18bc9c;
+	text-align: center!important;
+	color: white;
+	padding: 70px 7px;
+}
+
+.btn-about{
+	background: #18bc9c;
+    color: #fff;
+    padding: 11px 20px;
+    border-radius: 5px;
+    border:2px solid white;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.p1{
+	float:left;
+	width: 47%;
+	text-align: left;
+	padding-left: 200px;
+	margin-bottom: 35px;
+	margin-right: 20px;
+
+}
+.parrafos{
+	clear: both;
+	overflow: hidden;
+}
+.parrafos p{
+	font-size: 18px;
+}
+
+.p2{
+	float:left;
+	width: 48%;
+	text-align: left;
+	padding-right: 200px;
+	margin-bottom: 55px;
 }
 
 
 /*________________________________________________________________________*/
-.copyright{
+#contact{
+	background-color: white;
 	text-align: center;
-  	height: 70px;
-	background-color: #2c3e50;
-	color: white;
+	color: #212529;
+	padding: 70px 7px;
+}
+
+input{
+	width: 60%;
+	border: none;
+    line-height: 20px;
+    font-size: 25px;
+    /*outline: 0;*/
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+
+.txt-box{
+	width: 60%;
+	font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border-bottom: 1px solid #EEEEEE;
+}
+/*________________________________________________________________________*/
+
+footer{
+  	background-color: #2c3e50;
 	padding-top: 5px;
+	padding-bottom: 10px;
 	margin-top: 50px;
-
 	width: 100%;
-	bottom: 0;
 
-	position: absolute;
+	text-align: center;
+	color: white;
+
+	position: relative;
+	bottom: -30px;
+}
+
+.box-footer{
+	width: 30%;
+	margin-top: 63px;
+	height: 120px;
+
+	display: inline-block;
+}
+
+.h3{
+	font-size: 32px;
+	padding-bottom: 40px;
+}
+
+.startbootstrap{
+	color: #18bc9c;
+	text-decoration: none;
 }

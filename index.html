@@ -4,37 +4,119 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,800" rel="stylesheet">
 	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<header>
-		<div class="menu container text-uppercase">
-				<a href="#" class="start">Start Bootstrap</a>
-
-				<a href="#" class="float-r link">Contact</a>
-				<a href="#" class="float-r link">About</a>
-				<a href="#" class="float-r link">Portafolio</a>
+		<div class="container text-uppercase">
+				<a href="#home" class="start">Start Bootstrap</a>
+				
+				<a href="#contact" class="float-r link">Contact</a>
+				<a href="#about" class="float-r link">About</a>
+				<a href="#portfolio" class="float-r link">Portfolio</a>
 		</div>
 	</header>
 	<section id="home">
-		<div class="container home"></div>
-		
+		<div class="container home">
+			<div class="img-home">
+			  	<img src="assets/images/profile.png" alt="profile" class="profile">
+			</div>
+			<h2 class="text-uppercase txt-home mt-0">Start bootstrap</h2>
+			<div class="separador_white">
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</div>
+		  	<h4>Web Developer - Graphic Artist - User Experience Designer</h4>
+		</div>	
 	</section>
-	<section>
-		
+	<section id="portfolio">
+		<div class="container">
+			<h3 class="text-uppercase txt-title mt-0">Portfolio</h3>
+			<div class="separador_black">
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</div>
+			
+			<div class="container img_row">
+				<div class="row">
+					<img src="assets/images/portfolio/cabin.png" alt="row1-1" class="row1-1">
+				</div>
+				<div class="row">
+					<img src="assets/images/portfolio/cake.png" alt="row1-2" class="row1-2">
+				</div>
+				<div class="row">
+					<img src="assets/images/portfolio/circus.png" alt="row1-3" class="row1-3">
+				</div>
+			</div>
+			<div class="container img_row">
+				<div class="row">
+					<img src="assets/images/portfolio/game.png" alt="row2-1" class="row2-1">
+				</div>
+				<div class="row">
+					<img src="assets/images/portfolio/safe.png" alt="row2-2" class="row2-2">
+				</div>
+				<div class="row">
+					<img src="assets/images/portfolio/submarine.png" alt="row2-3" class="row2-3">
+				</div>
+			</div>
+		</div>
 	</section>
-	<section>
-		
+	<section id="about">
+		<div class="container about">
+			<h3 class="text-uppercase txt-title mt-0">About</h3>
+			<div class="separador_white">
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</div>
+			<div class="parrafos">
+				<p class="p1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+				<p class="p2">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+			</div>
+			<a href="#" class="btn-about"><i class="fa fa-download" aria-hidden="true"></i>
+			Download Theme</a>
+		</div>	
 	</section>
-	<section>
-		
+	<section id="contact">
+		<div class="container contact">
+			<h3 class="text-uppercase txt-title mt-0">Contact me</h3>
+			<div class="separador_black">
+				<i class="fa fa-star" aria-hidden="true"></i>
+			</div>
+
+			<!-- Formulario -->
+			<div class="container form">	
+				<div class="txt-box">
+					<input type="text" placeholder="Name">  <!-- Caja de texto-->
+				</div>
+				<div class="txt-box">
+					<input type="text" placeholder="Email Address">  <!-- Caja de texto-->
+				</div>
+				<div class="txt-box">
+					<input type="text" placeholder="Phone Number">  <!-- Caja de texto-->
+				</div>
+				<div class="txt-box">
+					<input type="text" placeholder="Message">  <!-- Caja de texto-->
+				</div>
+			</div>
+
 	</section>
 	<footer>
-		<div></div>
-		<div></div>
-		<div></div>
+		<div class="box-footer">
+			<h3 class="text-uppercase h3 mb-0">Location</h3>
+			<p class="m-0">3481 Melrose Place <br>
+			Beverly Hills, CA 90210</p>
+		</div>
+		<div class="box-footer">
+			<h3 class="text-uppercase h3 mb-0">Around the web</h3>
+			<i class="m-0 fa fa-facebook" aria-hidden="true"></i>
+			<i class="m-0 fa fa-google-plus" aria-hidden="true"></i>
+			<i class="m-0 fa fa-twitter" aria-hidden="true"></i>
+			<i class="m-0 fa fa-linkedin" aria-hidden="true"></i>
+			<i class="m-0 fa fa-dribbble" aria-hidden="true"></i>
+		</div>
+		<div class="box-footer">
+			<h3 class="text-uppercase h3 mb-0">About freelancer</h3>
+			<p class="m-0">Freelance is a free to use, open source Bootstrap theme created by <a class="startbootstrap" href="http://www.bootstrap.com"> Start Bootstrap.</a></p>
+		</div>
 		<div class="copyright">
 			<p>Copyright &#169; Your Website 2017</p>
 		</div>
