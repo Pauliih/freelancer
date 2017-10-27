@@ -11,6 +11,9 @@ pero para ganar tiempo, puedes usar los siguientes:
 
 REVISAR ETIQUETAS: form, input, button.
 
+VIDEOS:
+<iframe width="1499" height="551" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" gesture="media" allowfullscreen></iframe>
+
 */
 
 * {
@@ -90,7 +93,6 @@ a {
 .fa-star{
 	font-size: 35px;
 }
-
 
 .separador_white:after {
     display: inline-block;
@@ -272,12 +274,28 @@ input{
 }
 
 .txt-box{
-	width: 60%;
-	font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    border-bottom: 1px solid #EEEEEE;
+	border: none;
+	background-color: transparent;
+	border-bottom: 2px solid #E0E0E0;
+	font-size: 20px;
+	width: 55%;
 }
+.form{
+	margin: 50px auto;
+}
+
+.btn-send{
+	background: #18bc9c;
+    color: #fff;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border:1px solid white;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+/* Poner el botón send a la izquierda */
+
 /*________________________________________________________________________*/
 
 footer{
@@ -296,7 +314,7 @@ footer{
 
 .box-footer{
 	width: 30%;
-	margin-top: 63px;
+	/*margin-top: 63px;*/
 	height: 120px;
 
 	display: inline-block;
@@ -310,4 +328,34 @@ footer{
 .startbootstrap{
 	color: #18bc9c;
 	text-decoration: none;
+}
+
+.box-footer .fa{
+	color:#fff;
+	white-space: nowrap;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+.box-footer .fa-facebook{
+	color:#fff;
+	white-space: nowrap;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.box-footer .fa-google-plus{
+	color:#fff;
+	white-space: nowrap;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+.copyright{
+	padding-top: 80px;
 }
